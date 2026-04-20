@@ -1,4 +1,7 @@
-# 👁️ CyberAscii Vision
+# <img src="public/ascii.PNG" width="32" height="32" /> CyberAscii Vision
+
+[**✨ Live Demo**](https://cyberascii-vision.netlify.app/)
+
 
 A futuristic, real-time camera-to-ASCII converter with integrated AI scene analysis. Experience the world through the eyes of a cyberpunk security system.
 
