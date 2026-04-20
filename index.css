@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Share Tech Mono", monospace;
+  --font-jetbrains: "JetBrains Mono", monospace;
+}
+
+@layer base {
+  body {
+    @apply font-mono bg-black text-green-500 overflow-hidden;
+  }
+}
+
+/* Custom scrollbar for cyberpunk feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #001100;
+}
+::-webkit-scrollbar-thumb {
+  background: #004400;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #008800;
+}
